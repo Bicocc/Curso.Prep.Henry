@@ -233,12 +233,12 @@ function esVocal(letra){
       || letra.toUpperCase()=="E"
       || letra.toUpperCase()=="I"
       || letra.toUpperCase()=="O"
-      || letra.toUpperCase()=="U"){
+      || letra.toUpperCase()=="U" ){
         return "Es vocal"
   }else if (letra.length>1){
         return "Dato incorrecto"
   }else {
-    return "Otro dato"
+    return "Otro dato!!!"
   }
       
 }
